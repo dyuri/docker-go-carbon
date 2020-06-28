@@ -1,14 +1,14 @@
-# TODO Docker image for go-carbon + carbonapi
+# Docker image for go-carbon + carbonapi
 
 ## Quick Start
 
 ```sh
 docker run -d\
- --name go-graphite\
+ --name go-carbon\
  --restart=always\
- -p 80:80\
+ -p 8081:8081\
  -p 2003-2004:2003-2004\
- gographite/go-graphite
+ dyuri/go-carbon
 ```
 
 ### Includes the following components
